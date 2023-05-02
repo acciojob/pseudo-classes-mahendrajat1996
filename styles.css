@@ -2,4 +2,23 @@
 p:first-child {
 	background-color:black;
 	color:white;
+
+p:last-child {
+	background-color:red;
+	
 }
+.item:first-child{
+		background-color:white;
+	}
+.item:last-child-child{
+		background-color:white;
+	}
+.item:last-child(even){
+	background-color:stalegray;
+	}
+.item:last-child(odd){
+	background-color:pink;
+	}
+	
+
+
